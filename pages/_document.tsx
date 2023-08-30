@@ -1,14 +1,20 @@
 import * as React from 'react'
+
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 import { IconContext } from '@react-icons/all-files'
+import Script from 'next/script';
+
 
 export default class MyDocument extends Document {
   render() {
     return (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
-          <Head>
+          <Head><Script 
+          strategy="beforeInteractive"
+          src="https://scriptstaging.cookieyes.com/client_data/29827733554240cad1110c91/script.js">
+</Script>
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
