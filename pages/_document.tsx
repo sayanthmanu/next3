@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
         <Html lang='en'>
           <Head><Script 
           strategy="beforeInteractive"
-          src="https://scriptstaging.cookieyes.com/client_data/29827733554240cad1110c91/script.js">
+          src="https://scriptstaging.cookieyes.com/client_data/7a8e3bc4d2b433914a56121f/script.js">
 </Script>
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
