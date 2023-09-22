@@ -15,7 +15,11 @@ export default class MyDocument extends Document {
           strategy="beforeInteractive"
           src="https://scriptstaging.cookieyes.com/client_data/7a8e3bc4d2b433914a56121f/script.js">
 </Script>
-
+<Script>
+window.iabConfig = {
+allowedVendors: [8,27,53 ]
+}
+</Script>
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
@@ -28,11 +32,7 @@ export default class MyDocument extends Document {
           </Head>
 
           <body>
-          <Script>
-window.iabConfig = {
-allowedVendors: [8,27,53 ]
-}
-</Script>
+
             <script
               dangerouslySetInnerHTML={{
                 __html: `
