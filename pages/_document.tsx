@@ -70,6 +70,10 @@ export default class MyDocument extends Document {
               }}
               
             />
+            
+            <Main />
+
+            <NextScript />
             <div class="ytvideo">
             <iframe width="400px"
             height="225px" src="https://www.youtube.com/embed/gCuoVMmes4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -78,10 +82,6 @@ export default class MyDocument extends Document {
             <iframe src="https://player.vimeo.com/video/813227141?h=077b905b65" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/813227141">On the Edge</a> from <a href="https://vimeo.com/matteosanders">Matteo Sanders</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
         </div>
-            <Main />
-
-            <NextScript />
-            
           </body>
         </Html>
       </IconContext.Provider>
